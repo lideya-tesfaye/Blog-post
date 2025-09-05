@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(73, 71, 71);
+background: linear-gradient(to bottom, black, rgb(73, 72, 75));
 }
 .nav {
     display: flex; 
      background-color: black;
      padding-top: 17px;
      height: 35px;
-     width: 1900px;
-     color: white;
-     position: fixed;
+     width:  1351px;
+    margin-top: -7px;
+    margin-left: -9px;
 }
 .link {
     margin-left: 400px;
@@ -17,25 +17,59 @@ body {
 .link1, .link2, .link3 {
  margin-right: 40px;
 } 
-#one {
- margin-left: 25px;
+.link,.link1,.link2,.link3,.link4 {
+    color: white;
+    text-decoration: none;
 }
-#image {
-    margin-left: 350px;
-    margin-top: -7px;
-    border-radius: 25px;
-    width: 37px;
-    height: 35px;
+.link:hover {
+    color: gray;
+}
+.link1:hover {
+     color: gray;
+}
+.link2:hover {
+      color: gray;
+}
+.link3:hover {
+      color: gray;
+}
+.link4:hover {
+      color: gray;
+}
+#one {
+ margin-left: 350px;
+ font-weight: bold;
+ color: white;
+
+}
+#one:hover {
+    cursor: pointer;
 }
 #text {
     font-size: 70px;
     margin-left: 500px;
     padding-top: 70px;
 }
+.title {
+    font-size: 70px;
+    margin-left: 350px;
+    padding-top: 15px;
+    color: white;
+    display: none;
+    font-weight: bold;
+     text-decoration: none;  
+}
 #display {
-     width: 1900px;
-     height: 500px;
+    
+     width: 1352px;
+     height: 572px;
+     margin-left: -9px;
      margin-top: -70px;
+     background-image: url(img/48e692185290e45ed2458191094aa87a.jpg);
+    background-size: cover;
+}
+#display:hover .title {
+    display: block;
 }
 #two {
  margin-top: 20px;
@@ -44,7 +78,7 @@ body {
  font-size: 25px;
  color: white;
 }
-#cursor1,#cursor2,#cursor3,#cursor4,#cursor5,#cursor6,#cursor7,#cursor8,#cursor9,#cursor10,#cursor11,#cursor12,#cursor13,#cursor14,#cursor15,#cursor16,#cursor17,#cursor18,#cursor19,#cursor20 {
+#cursor1,#cursor2,#cursor3,#cursor5,#cursor6,#cursor7,#cursor8,#cursor9,#cursor11,#cursor12,#cursor13,#cursor14,#cursor16,#cursor17,#cursor18,#cursor19{
     display: none;
     width: 70px;
     height: 35px;
@@ -54,76 +88,68 @@ body {
     color: white;
     position: absolute;
     margin-top: 159px;
-    margin-left: 270px;
+    margin-left: 225px;
 
 }
 #three {
-    width: 350px;
+    width: 325px;
     height: 200px;
-    margin-left: 50px;
+    margin-left: 7px;
     border-radius: 15px;
     background-image: url(img/1.jpeg);
-    background-size: cover;
+    background-size: contain;
+    
 }
-
+#three:hover .text5 {
+    display: block;
+}
 #three:hover #cursor1 {
     display: block;
 }
 #four {
-    width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 425px;
+    margin-left: 347px;
     margin-top: -200px;
     background-image: url(img/2.jpeg);
     background-size: cover;
+}
+#four:hover .text6 {
+    display: block;
 }
 #four:hover #cursor2 {
     display: block;
 }
 #five {
-    width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 800px; 
+    margin-left: 685px; 
     margin-top: -200px;
     background-image: url(img/3.jpg);
     background-size: cover;
 }
+#five:hover .text7 {
+    display: block;
+}
 #five:hover #cursor3 {
     display: block;
 }
-
-#six {
-     width: 350px;
-    height: 200px;
-    border-radius: 15px;
-    margin-left: 1175px;
-    margin-top: -200px;
-    background-image: url(img/10.jpg);
-    background-size: cover;
-}
-#six:hover #cursor4 {
-    display: block;
-}
 #seven {
-    width: 350px;
+    width: 315px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 1550px;
+    margin-left: 1025px;
     margin-top: -200px;
     background-image: url(img/12.jpg);
     background-size: cover;
 }
-#seven:hover #cursor5 {
+#seven:hover .text8 {
     display: block;
 }
-.arrow {
-    font-size: 150px;
-    color: black;
-    opacity: 0.5;
-    position: absolute;
-    margin-left: 1200px;
+#seven:hover #cursor5 {
+    display: block;
 }
 #text2 {
     margin-top: 70px;
@@ -133,80 +159,83 @@ body {
      color: white;
 }
 #eight {
-    width: 350px;
+    width: 325px;
     height: 200px;
-    margin-left: 50px;
+    margin-left:7px;
     border-radius: 15px;
     background-image: url(img/download.jpg);
-    background-size: cover;
- 
+    background-size: cover; 
+}
+#eight:hover .text9 {
+    display: block;
 }
 #eight:hover #cursor6 {
     display: block;
 }
 #nine {
-    width: 350px;
+    width: 325px;
     height: 200px;
-    margin-left: 425px;
+    margin-left: 347px;
     margin-top: -200px;
     border-radius: 15px;
     background-image: url(img/images1.jpg);
     background-size: cover;
 }
+#nine:hover .text10 {
+    display: block;
+}
 #nine:hover #cursor7 {
     display: block;
 }
 #ten {
-    width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 800px;
+    margin-left: 685px;
     margin-top: -200px;
     background-image:url(img/download1.jpg);
     background-size: cover;
+}
+#ten:hover .text11 {
+    display: block;
 }
 #ten:hover #cursor8 {
     display: block;
 }
 #eleven {
-    width: 350px;
+    width: 315px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 1175px;
+    margin-left: 1025px;
     margin-top: -200px;
     background-image:url(img/download2.jpg);
-    background-size: cover;
-  
+    background-size: cover;  
+}
+#eleven:hover .text12 {
+    display: block;
 }
 #eleven:hover #cursor9 {
     display: block;
 }
-#twelve {
-    width: 350px;
-    height: 200px;
-    margin-left: 1550px;
-    margin-top: -200px;
-    border-radius: 15px;
-    background-image: url(img/download3.jpg);
-    background-size: cover;
-    
+#display1 {
+     margin-top: 50px;
+     width: 1345px;
+     height: 500px;
+     margin-left: -9px;
+     background-image: url(img/53d37c7a-033c-4b7b-b0a9-b0600a252d3e.jpg);
+} 
+.title1 {
+     font-size: 45px;
+    margin-left: 250px;
+    padding-top: 150px;
+    color: white;
+    display: none;
+    font-weight: bold;
+    text-decoration: none;
 }
-#twelve:hover #cursor10 {
+#display1:hover .title1 {
     display: block;
 }
-.arrow1 {
-     font-size: 150px;
-    color: black;
-    opacity: 0.5;
-    position: absolute;
-    margin-left: 1200px;
-    margin-top: -170px;
-}
-#display1 {
-     width: 1900px;
-     height: 500px;
-     margin-top: 70px;
-} 
 #text3 {
     margin-top: 20px;
  font-weight: bold;
@@ -215,62 +244,62 @@ body {
  color: white;
 }
 #thirteen {
-    width: 350px;
+    width: 325px;
     height: 200px;
-    margin-left: 50px;
+    margin-left: 7px;
     border-radius: 15px;
     background-image:url(img/download6.jpg);
     background-size: cover;
+}
+#thirteen:hover .text14 {
+    display: block;
 }
 #thirteen:hover #cursor11 {
     display: block;
 }
 #fourteen {
-     width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 425px;
+    margin-left: 350px;
     margin-top: -200px;
     background-image: url(img/images.jpg);
     background-size: cover;
+}
+#fourteen:hover .text15 {
+    display: block;
 }
 #fourteen:hover #cursor12 {
     display: block;
 }
 #sixteen {
-        width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 800px; 
+    margin-left: 700px; 
     margin-top: -200px;
     background-image:url(img/images8.jpg);
     background-size: cover;
+}
+#sixteen:hover .text16 {
+    display: block;
 }
 #sixteen:hover #cursor13 {
     display: block;
 }
 #seventeen {
-       width: 350px;
+    width: 300px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 1175px;
+    margin-left: 1043px;
     margin-top: -200px;
     background-image:url(img/images7.jpg);
     background-size: cover;
 }
-#seventeen:hover #cursor14 {
+#seventeen:hover .text17{
     display: block;
 }
-#eighteen {
-     width: 350px;
-    height: 200px;
-    border-radius: 15px;
-    margin-left: 1550px;
-    margin-top: -200px;
-    background-image: url(img/images9.jpg);
-    background-size: cover;
-}
-#eighteen:hover #cursor15 {
+#seventeen:hover #cursor14 {
     display: block;
 }
 #text4 {
@@ -281,9 +310,9 @@ body {
  color: white;
 }
 #ninteen {
-     width: 350px;
+     width: 325px;
     height: 200px;
-    margin-left: 50px;
+    margin-left: 7px;
     border-radius: 15px;
     background-image:url(img/download10.jpg);
     background-size: cover;
@@ -292,9 +321,9 @@ body {
     display: block;
 }
 #twenty {
-    width: 350px;
+    width: 325px;
     height: 200px;
-    margin-left: 425px;
+    margin-left: 345px;
     margin-top: -200px;
     border-radius: 15px;
     background-image:url(img/download12.jpg);
@@ -304,10 +333,10 @@ body {
     display: block;
 }
 #twentyone {
-    width: 350px;
+    width: 300px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 800px;
+    margin-left: 689px;
     margin-top: -200px;
     background-image:url(img/images14.jpg);
     background-size: cover;
@@ -316,10 +345,10 @@ body {
     display: block;
 }
 #twentytwo {
-    width: 350px;
+    width: 325px;
     height: 200px;
     border-radius: 15px;
-    margin-left: 1175px;
+    margin-left: 1015px;
     margin-top: -200px;
      background-image:url(img/images15.jpg);
     background-size: cover;
@@ -327,32 +356,54 @@ body {
 #twentytwo:hover #cursor19{
     display: block;
 }
-#twentythree {
-     width: 350px;
-    height: 200px;
-    margin-left: 1550px;
-    margin-top: -200px;
-    border-radius: 15px;
-     background-image: url(img/images16.jpg);
-    background-size: cover;
+.text5,.text6,.text7,.text8,.text9,.text10,.text11,.text12,.text13,.text14,.text15,.text16,.text17,.text18,.text24{
+opacity: 0.7;
+color: white;
+padding-left: 35px;
+width: 250px;
+position: absolute;
+background-color: rgb(17, 14, 14);
+display: none;
 }
-#twentythree:hover #cursor20 {
-    display: block;
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
 }
-.arrow2 {
-    font-size: 150px;
-    color: black;
-    opacity: 0.5;
-    position: absolute;
-    margin-left: 1200px;
+
+.modal-content {
+  position: relative;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
-.arrow3 {
-    font-size: 150px;
-    color: black;
-    opacity: 0.5;
-    position: absolute;
-    margin-left: 1200px;
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
 }
+.close-signin {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 
 
 
